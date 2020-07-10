@@ -1,10 +1,10 @@
 // par nome/valor
-const salutation = 'hey' // contexto léxico 1
+const salutation = 'hey'; // contexto léxico 1
 
 function exec() {
-    const salutation = `what's up?` //contexto léxico 2
-    return salutation
-}
+    const salutation = `what's up?`; //contexto léxico 2
+    return salutation;
+};
 
 // Objetos são grupos aninhados de pares nome/valor
 const client = {
@@ -15,8 +15,8 @@ const client = {
         logradouro: 'very coll street', 
         number: 123
     }
-}
+};
 
 console.log(salutation);
 console.log(exec());
-console.log(client)
+console.log(client);
